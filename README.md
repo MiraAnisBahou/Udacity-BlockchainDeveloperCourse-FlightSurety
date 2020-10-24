@@ -1,6 +1,6 @@
 # Important notes:
 
-In case you want to check my front-end and the functionalities, make sure to change the firstAirline to the address of the first account from ganache-cli **before** "truffle migrate --reset".
+In case you want to check my front-end and the functionalities, make sure to change the firstAirline to the address of the first account from ganache-cli **before** "truffle migrate --reset" in **2_deploy_contracts**.
 
 
 ## Tests:
