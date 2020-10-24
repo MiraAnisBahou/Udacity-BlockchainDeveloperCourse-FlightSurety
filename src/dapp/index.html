@@ -24,8 +24,44 @@
         <div id="display-wrapper" class="top-20">
         </div>
         <div class="row top-20">
-            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+            <!-- <label class="from">Register Airline</label>
+            <br><br> -->
+            Airline Address:<input type="text" id="airline-address">
+            Airline Name: <input type="text" id="airline-name">
+            <btn class="btn btn-primary" id="register-airline">Register Airline</btn>
         </div>
+        <div class="row top-20">
+            <label class="from">Fund</label> <input type="text" id="airline-that-funded">
+            <btn class="btn btn-primary" id="fund-airline">Fund</btn>
+        </div>
+        <div class="row top-20">
+            <!-- <label class="form">Register Flight</label>
+            <br><br>  -->
+            Airline Address: <input type="text" id="airline-address2">
+            Flight Name: <input list="flights1" type="text" id="flight-name"> <datalist id="flights1">
+                <option value="X33">X33</option>
+                <option value="X35">X35</option>
+                <option value="X37">X37</option>
+                <option value="X357">X357</option>
+            </datalist><btn class="btn btn-primary" id="register-flight">Register Flight</btn>
+        </div>
+        <div class="row top-20">
+            <label class="from">Buy Flight Insurance</label> <input type="text" id="buy-flight-insurance-value">
+            <btn class="btn btn-primary" id="buy-flight-insurance">Buy</btn>
+        </div>
+        <div class="row top-20">
+            <label class="form">Flight</label> <input list="flights" type="text" id="flight-number"> <datalist id="flights">
+                <option value="X33">X33</option>
+                <option value="X35">X35</option>
+                <option value="X37">X37</option>
+                <option value="X357">X357</option>
+            </datalist><btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+        <div class="row top-20">
+            <label class="from">Withdraw Credit</label>
+            <btn class="btn btn-primary" id="withdraw-credit">Withdraw</btn>
+        </div>
+        
     </main>
 
 </body>
