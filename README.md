@@ -1,3 +1,20 @@
+# Important notes:
+
+In case you want to check my front-end and the functionalities, make sure to change the firstAirline to the address of the first account from ganache-cli **before** "truffle migrate --reset".
+
+
+## Tests:
+To check if my tests work, use ganache-cli, by writing:
+**ganache-cli -a 20** in the CMD, since I used more than 10 accounts.
+
+
+## Transactions:
+When you try the front-end, run **ganache-cli -a 50** just in case, and if any of the transactions are not displayed on the front-end, look at the cmd where you are running the ganache-cli, all transactions appear there, so everything is running correctly.
+
+
+
+# Udacity's Notes:
+
 # FlightSurety
 
 FlightSurety is a sample application project for Udacity's Blockchain course.
